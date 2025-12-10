@@ -42,6 +42,7 @@ void CK2::Character::registerKeys()
 		const auto modifierString = commonItems::stringOfItem(theStream).getString();
 		// We have no interest in parsing modifiers. We're looking for one explicit modifier.
 		loan = modifierString.find("borrowed_from_jews") != std::string::npos;
+		mohpretend = modifierString.find("mandate_of_heaven_5" || "mandate_of_heaven_4" || "mandate_of_heaven_3" || "mandate_of_heaven_2" || "mandate_of_heaven_1") != std::string::npos;
 	});
 	registerKeyword("tr", [this](const std::string& unused, std::istream& theStream) {
 		const commonItems::intList trList(theStream);

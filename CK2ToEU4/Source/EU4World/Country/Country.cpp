@@ -1094,6 +1094,16 @@ void EU4::Country::assignReforms(const std::shared_ptr<mappers::RegionMapper>& r
 			isMerc = true;
 		}
 		// Chinese Warlord
+		else if ((title.first.find("e_china")) // Probably need to add check if Tianxia mod exist 
+		{
+			details.reforms.clear();
+			details.reforms = {"celestial_empire"};
+		}
+		else if (country.details.mohpretend) // Probably need to add check if Tianxia mod exist
+		{
+			details.reforms.clear();
+			details.reforms = {"chinese_warlord"};
+		}
 		else if (chineseCultures.count(details.primaryCulture) &&
 					(governmentType == "absolute" || actualHolder->getGovernment() == "chinese_imperial_government"))
 		{

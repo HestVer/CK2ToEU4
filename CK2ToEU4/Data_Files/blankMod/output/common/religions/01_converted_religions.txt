@@ -103,3 +103,1023 @@ dharmic = {
 		heretic = { TERAPANTHA }
 	}
 }
+
+eastern = {
+	shugendo = {
+		icon = 173
+		color = { 181 51 115 }
+		country = { # Probably need more unique
+			global_manpower_modifier = -0.10 # Ascetics can go too far
+			own_territory_dice_roll_bonus = 2 # They know their lands VERY well (I think it could be quite powerful, so I reduced their human resources)
+		}
+		province = {
+			supply_limit_modifier = 0.10 # They know their lands VERY well
+		}
+		country_as_secondary = {
+			own_territory_dice_roll_bonus = 1
+			global_manpower_modifier = -0.05
+		}
+		
+		uses_isolationism = yes
+		
+		harmonized_modifier = harmonized_shinto
+		
+		# heretic = {SHINTO KOSHIN} # don't sure if it need
+	}
+	koshin = {
+		icon = 174
+		color = { 196 114 76 }
+		country = { # Probably need more unique
+			same_religion_advisor_cost = -0.10 # See no evil in not paying you
+			tolerance_heretic = 1 # Hear no evil in dummy heretic words
+		}
+		province = {
+			local_hostile_attrition = -1 # Do no evil to that Blood-letting invaders
+		}
+		country_as_secondary = { # that seems too weak need to improve
+			tolerance_heretic = 1
+			global_unrest = -1
+		}
+		
+		harmonized_modifier = harmonized_shinto
+		
+		uses_isolationism = yes
+		
+		# heretic = {SHINTO SHUGENDO} # don't sure if it need
+	}
+	kejawen = {
+		icon = 175
+		color = { 202 202 0 }
+		country = {
+			tolerance_heathen = 3 # I not sure about them...
+			global_autonomy = -0.05 # I not sure about them...
+		}
+		country_as_secondary = {
+		tolerance_heathen = 2
+		global_autonomy = -0.01
+		}
+		uses_karma # I think they need it
+		
+		harmonized_modifier = harmonized_shinto
+		
+	}
+}
+pagan = {
+	moshiri_shinism = {
+		icon = 177
+		color = { 113 20 47 } 
+		country = {
+			fort_maintenance_modifier = -0.2
+			global_unrest = -2
+		}
+		province = {
+			local_missionary_strength = -0.05
+		}
+		country_as_secondary = {
+		fort_maintenance_modifier = -0.05
+		global_unrest = -1
+		}
+		
+		uses_isolationism = yes
+		
+		harmonized_modifier = harmonized_shinto
+		
+		heretic = { KAMUISM }
+	}
+	kamuism = {
+		icon = 178
+		color = { 113 20 47 }
+		country = {
+			fort_maintenance_modifier = -0.10
+			global_unrest = -1
+		}
+		province = {
+			local_missionary_strength = -0.05
+		}
+		country_as_secondary = { 
+		fort_maintenance_modifier = -0.05 
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Moshiri_Shinism }
+	}
+	reformed_puluga = { # I can get much about religion so
+		icon = 183
+		color = { 171 72 47 }
+		country = {
+			global_manpower_modifier = 0.15 # Things for secret haw puluga made man and woman
+			global_garrison_growth = 0.15 # Things for secret haw puluga made man and woman AND tianxia defensiveness of pagan
+			global_autonomy = -0.02 # Things for monotheistic
+		}
+		province = {
+			local_missionary_strength = -0.03
+		}
+		country_as_secondary = {
+			global_manpower_modifier = 0.07
+			global_garrison_growth = 0.07
+			global_autonomy = -0.01
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Puluga }
+	}
+	puluga = { # I can get much about this religion so...
+		icon = 184
+		color = { 171 72 47 }
+		country = {
+			global_manpower_modifier = 0.1 # Things for secret haw puluga made man and woman
+			global_garrison_growth = 0.1 # Things for secret haw puluga made man and woman AND tianxia defensiveness of pagan
+		}
+		province = {
+			local_missionary_strength = 0.02
+		}
+		country_as_secondary = {
+			global_manpower_modifier = 0.05
+			global_garrison_growth = 0.05
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Reformed_Puluga }
+	}
+	reformed_benzhuism = {
+		icon = 186
+		color = { 162 104 128 }
+		country = {
+			global_allowed_num_of_buildings = 1 # Many of temples for local gods probable teaching how to built thing correctly
+			build_cost = -0.1 # through reformation must coordinate thigs with goverment - faster through not so effective but no one heretic using our people
+			build_time = -0.1 # through reformation must coordinate thigs with goverment - faster through not so effective but no one heretic using our people
+		}
+		province = {
+			local_defensiveness = 0.1 # More united push back invaders
+		}
+		country_as_secondary = {
+			build_cost = -0.1
+			bulid_time = -0.1
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Benzhuism }
+	}
+	benzhuism = {
+		icon = 187
+		color = { 162 104 128 }
+		country = { 
+			global_allowed_num_of_buildings = 1 # Many of temples for local gods probable teaching how to built thing correctly
+			global_autonomy = 0.05 # Many gods mean many divergetion from center
+		}
+		province = {
+			local_build_cost = -0.20 # The must know how built
+			local_missionary_strength = -0.02 # Many cults with historic figures
+			local_autonomy = 0.025 # Many cults with historic figures
+		}
+		country_as_secondary = {
+			global_allowed_num_of_buildings = 1
+			global_autonomy = 0.10 # YOUR LITERALLY ACCEPTED CULTS! OF COURSE THEY WILL MORE BELIVE IN THEMSELF!!! (For protocol: I'm not intended to insult belivers of that faith it just seems like interesting gameplay)
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Benzhuism }
+	}
+	reformed_pemena = {
+		icon = 192
+		color = { 255 100 255 }
+		country = { # mostly losted their courage for old time but still fight
+			heir_chance = 0.25 # Must be asocieted with unique doctrine from Tianxia
+			defensiveness = 0.2
+			land_morale = 0.15
+		}
+		province = {
+			local_missionary_strength = -0.4
+		}
+		country_as_secondary = {
+			defensiveness = 0.1
+			land_morale = 0.7
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Pemena }
+	}
+	pemena = {
+		icon = 193
+		color = { 255 100 255 }
+		country = { # mostly based on Stateless Society
+			technology_cost = 0.5 # Seems realy like old time
+			defensiveness = 0.55 # Seems don't wanna anyone chenge them
+			land_morale = 0.2 # Seems they ready to fight for old time
+		}
+		province = {
+			local_missionary_strength = -0.1
+		}
+		country_as_secondary = {
+			technology_cost = 0.3
+			defensiveness = 0.27
+			land_morale = 0.1
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Reformed_Pemena }
+	}
+	shendao = {
+		icon = 195
+		color = { 120 105 255 }
+		country = {
+			monarch_lifespan = 0.2
+			stability_cost_modifier = -0.25
+			meritocracy = 1
+		}
+		country_as_secondary = {
+		monarch_lifespan = 0.1
+		stability_cost_modifier = -0.15
+		meritocracy = 1
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+	}
+	reformed_kaharingan = {
+		icon = 198
+		color = { 255 102 128 }
+		country = {
+			build_cost = 0.1
+			global_prosperity_growth = 0.2
+			state_maintenance_modifier = 0.1
+			stability_cost_modifier = -0.1
+			global_autonomy = -0.1
+			inflation_reduction = 0.05
+		}
+			province = {
+			local_autonomy = 0.1
+		}
+		country_as_secondary = {
+			build_cost = 0.05
+			global_prosperity_growth = 0.1
+			state_maintenance_modifier = 0.05
+			global_autonomy = -0.05
+			inflation_reduction = 0.025
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Kaharingan }
+	}
+	kaharingan = { # That seems like good place for province based religion
+		icon = 199
+		color = { 255 102 128 }
+		country = {
+			stability_cost_modifier = -0.1
+			global_autonomy = -0.1
+		}
+		province = {
+			local_build_cost = 0.2
+			local_prosperity_growth = 0.2
+			inflation_reduction_local = 0.2
+			local_state_maintenance_modifier = 0.2
+			local_production_efficiency = -0.1
+			local_autonomy = 0.1
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Reformed_Kaharingan }
+	}
+	reformed_momolian = {
+		icon = 201
+		color = { 171 87 152 }
+		country = {
+			global_defender_dice_roll_bonus = 1
+			global_manpower_modifier = 0.1
+			production_efficiency = 0.05
+			governing_cost = -0.2 # More good connection with bobolian
+		}
+		province = {
+			local_governing_cost = 0.1
+		}
+		country_as_secondary = {
+			global_defender_dice_roll_bonus = 1
+			global_manpower_modifier = 0.0.5
+			production_efficiency = 0.05
+			governing_cost = -0.1
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Momolian }
+	}
+	momolian = {
+		icon = 202
+		color = { 171 87 152 }
+		country = {
+			global_defender_dice_roll_bonus = 1 # susukuon warned about enemies ( Or are they just attentive )
+		}
+		province = {
+			local_manpower_modifier = 0.2 # They good in medicine
+			local_production_efficiency = 0.1 # they know how create gifts for susukuon
+			local_governing_cost = 0.1 # Most of things go through bobolian it has some problem
+		}
+		country_as_secondary = {
+			global_defender_dice_roll_bonus = 1
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Reformed_Momolian }
+	}
+	abhakhanism = {
+		icon = 207
+		color = { 102 77 102 }
+		country = {
+			hostile_attrition = 4
+			female_advisor_chance = 0.4
+			monarch_lifespan = 0.2
+		}
+		country_as_secondary = {
+			hostile_attrition = 3
+			female_advisor_chance = 0.3
+			monarch_lifespan = 0.1
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Jurchen }
+	}
+	jurchen = { # Shamanism
+		icon = 208
+		color = { 102 77 102 }
+		country = {
+			female_advisor_chance = 0.4
+			local_monthly_devastation = -0.1
+		}
+		province = {
+			local_hostile_attrition = 5
+			local_monthly_devastation = 0.1
+		}
+		country_as_secondary = {
+			female_advisor_chance = 0.2
+			local_monthly_devastation = -0.1
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Abhakhanism }
+	}
+	cheondo = {
+		icon = 210
+		color = { 229 66 33 }
+		country = {
+			technology_cost = -0.05
+			development_cost_modifier = -0.05
+			global_institution_spread = 0.05
+			institution_spread_from_true_faith = 0.05
+			has_geobukseon = yes # not sure maybe it need give culture
+		}
+		province = {
+			local_years_of_nationalism = 2
+		}
+		country_as_secondary = {
+			technology_cost = -0.025
+			development_cost_modifier = -0.025
+			global_institution_spread = 0.025
+			institution_spread_from_true_faith = 0.025
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Shingyo }
+	}
+	shingyo = {
+		icon = 211
+		color = { 229 66 33 }
+		country = {
+			technology_cost = -0.1
+			has_geobukseon = yes # not sure maybe it need give culture
+		}
+		province = {
+			local_development_cost_modifier = -0.1
+			local_institution_spread = 0.1
+			local_years_of_nationalism = 3
+		}
+		country_as_secondary = {
+			technology_cost = -0.05
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Cheondo }
+	}
+	reformed_anitism = {
+		icon = 213
+		color = {  }
+		country = {
+			war_exhaustion = -0.025
+			global_sailors_modifier = 0.025
+			global_ship_trade_power = 0.1
+		}
+		province = {
+			local_years_of_nationalism = 2
+		}
+		country_as_secondary = {
+			war_exhaustion = -0.025
+			global_sailors_modifier = 0.025
+			global_ship_trade_power = 0.05
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Anitism }
+	}
+	anitism = {
+		icon = 214
+		color = {  }
+		country = {
+			war_exhaustion = -0.025 # taotao thing
+		}
+		province = {
+			local_sailors_modifier = 0.05 # Seafaring
+			local_autonomy = 0.05 # many local cults
+			local_years_of_nationalism = 4 # many local cults of anito
+		}
+		country_as_secondary = {
+			war_exhaustion = -0.025
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Reformed_Anitism }
+	}
+	maluku = {
+		icon = 216
+		color = { 86 72 47 }
+		country = {
+			local_sailors_modifier = 0.05
+			global_unrest = -1
+			global_ship_cost = -0.1
+		}
+		country_as_secondary = {
+			local_sailors_modifier = 0.025
+			global_unrest = -0.5
+			global_ship_cost = -0.05
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Animism }
+	}
+	reformed_kev_dab_kev_qhuas = { # I don't remember why I gave them these bonuses... probably need be changed
+		icon = 219
+		color = { 193 173 219 }
+		country = {
+			movement_speed = 0.1
+			heir_chance = 0.05
+			tolerance_heathen = 1
+		}
+		province = {
+			local_hostile_movement_speed = -0.1
+		}
+		country_as_secondary = {
+			movement_speed = 0.05
+			heir_chance = 0.05
+			tolerance_heathen = 0.5
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Kev_Dab_Kev_Qhuas }
+	}
+	kev_dab_kev_qhuas = { # I don't remember why I gave them these bonuses... probably need be changed
+		icon = 220
+		color = { 193 173 219 }
+		country = {
+			heir_chance = 0.05
+		}
+		province = {
+			local_manpower_modifier = 0.1
+			local_tolerance_of_heathens = 2
+			local_hostile_movement_speed = -0.2
+		}
+		country_as_secondary = {
+			heir_chance = 0.05
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Reformed_Kev_Dab_Kev_Qhuas }
+	}
+	reformed_malesung = { # 50/50 Tianxia and EU5 affected bonuses
+		icon = 222
+		color = { 188 175 152 }
+		country = {
+			may_recruit_female_generals = yes
+			female_advisor_chance = 0.3
+			trade_range_modifier = 0.15
+			may_perform_slave_raid = yes
+			development_cost_in_primary_culture = -0.15
+			naval_attrition = -0.15
+		}
+		province = {
+			local_missionary_strength = -0.1
+		}
+		country_as_secondary = {
+			may_recruit_female_generals = yes
+			female_advisor_chance = 0.15
+			trade_range_modifier = 0.075
+			may_perform_slave_raid = yes
+			development_cost_in_primary_culture = -0.075
+			naval_attrition = -0.075
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Malesung }
+	}
+	malesung = { # 50/50 Tianxia and EU5 affected bonuses
+		icon = 223
+		color = { 188 175 152 }
+		country = {
+			may_recruit_female_generals = yes
+			female_advisor_chance = 0.2
+			trade_range_modifier = 0.1
+			may_perform_slave_raid = yes
+			development_cost_in_primary_culture = -0.1
+		}
+		province = {
+			local_missionary_strength = 0.1
+		}
+		country_as_secondary = {
+			may_recruit_female_generals = yes
+			female_advisor_chance = 0.1
+			trade_range_modifier = 0.05
+			may_perform_slave_raid = yes
+			development_cost_in_primary_culture = -0.05
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Reformed_Malesung }
+	}
+	reformed_semangat = {
+		icon = 225
+		color = { 100 255 255 }
+		country = {
+			may_recruit_female_generals = yes
+			female_advisor_chance = 0.5
+			fort_maintenance_modifier = -0.1
+			defensiveness = 0.1
+			meritocracy = 0.5 # ... i dont think that help them ... well they have meritocraty ...
+		}
+		province = {
+			local_missionary_strength = -0.4
+		}
+		country_as_secondary = {
+			may_recruit_female_generals = yes
+			female_advisor_chance = 0.5
+			fort_maintenance_modifier = -0.05
+			defensiveness = 0.05
+			meritocracy = 0.5
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Semangat }
+	}
+	semangat = {
+		icon = 226
+		color = { 100 255 255 }
+		country = {
+			may_recruit_female_generals = yes
+			female_advisor_chance = 0.5
+		}
+		province = {
+			local_fort_maintenance_modifier = -0.2
+			local_defensiveness = 0.2
+			local_missionary_strength = -0.4
+		}
+		country_as_secondary = {
+			may_recruit_female_generals = yes
+			female_advisor_chance = 0.5
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Reformed_Semangat }
+	}
+	reformed_yzngism = {
+		icon = 180
+		color = { 57 36 126 }
+		country = {
+			heir_chance = 1
+			land_morale = 0.175
+			defensiveness = 0.2
+			may_recruit_female_generals = yes
+			female_advisor_chance = 0.4
+		}
+		province = {
+			trade_goods_size_modifier = -0.25
+		}
+		country_as_secondary = {
+			heir_chance = 0.5
+			land_morale = 0.15
+			defensiveness = 0.15
+			may_recruit_female_generals = yes
+			female_advisor_chance = 0.4
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Yzngism }
+	}
+	yzngism = {
+		icon = 181
+		color = { 57 36 126 }
+		country = {
+			defensiveness = 0.4 # They need strong bonuses to antagonize thier production uneffectifnes
+			land_morale = 0.3 # They need strong bonuses to antagonize thier production uneffectifnes
+		}
+		province = {
+			trade_goods_size_modifier = -0.5 # I don't know how stop grain and other earth connected goods production so i just cut all of them :/
+		}
+		country_as_secondary = {
+			defensiveness = 0.2
+			land_morale = 0.15
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Reformed_Yzngism }
+	}
+	utaki_shinko = { # Probably need third option for three mountain doctrine :<
+		icon = 228
+		color = { 187 20 67 }
+		country = {
+			global_ship_cost = -0.2
+			tolerance_heathen = 1
+			tolerance_heretic = 1
+			naval_morale = 0.1
+			loot_amount = 0.1
+			female_advisor_chance = 0.3
+			monarch_lifespan = 0.1
+			global_unrest = -1
+		}
+		country_as_secondary = {
+			global_ship_cost = -0.1
+			tolerance_heathen = 0.5
+			tolerance_heretic = 0.5
+			naval_morale = 0.05
+			loot_amount = 0.05
+			female_advisor_chance = 0.3
+			monarch_lifespan = 0.05
+			global_unrest = -1
+		}
+		
+		uses_isolationism
+		
+		harmonized_modifier = harmonized_shinto
+		
+		heretic = { Ryukyu_Shinto Nirai_Kanai_Shinko }
+	}
+	# Nirai_Kanai_Shinko = { # 3rd option. probably need be default and changes by starting event for divine_empire and all provinces and vassal (and their province) with that religion on Utaki_shinko
+	# 	icon = 228
+	# 	color = { 187 20 67 }
+	# 	country = {
+	#		global_ship_cost = -0.3
+	# 		naval_morale = 0.2
+	# 		land_morale = 0.2
+	#		loot_amount = 0.1
+	# 		monarch_lifespan = 0.1
+	#		tolerance_heathen = -5
+	#		tolerance_heretic = -5 	
+	#	}
+	#	country_as_secondary = {
+	#		global_ship_cost = -0.15
+	# 		naval_morale = 0.1
+	# 		land_morale = 0.1
+	#		loot_amount = 0.05
+	# 		monarch_lifespan = 0.05
+	#		tolerance_heathen = -3
+	#		tolerance_heretic = -3 	
+	#	}
+	#
+	#	harmonized_modifier = harmonized_pagan
+	#
+	#	heretic = { Utaki_Shinko Ryukyu_Shinto }
+	# }
+	ryukyu_shinto = {
+		icon = 229
+		color = { 187 20 67 }
+		country = {
+			female_advisor_chance = 0.3
+			loot_amount = 0.1
+			naval_morale = 0.1
+		}
+		province = {
+			local_ship_cost = -0.2
+			local_unrest = -1
+		}
+		country_as_secondary = {
+			female_advisor_chance = 0.3
+			loot_amount = 0.05
+			naval_morale = 0.05
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Utaki_Shinko Nirai_Kanai_Shinko }
+	}
+	reformed_sanamahism = {
+		icon = 231
+		color = { 87 0 70 }
+		country = {
+			tolerance_own = 1
+			manpower_in_own_culture_provinces = 0.1
+			religious_unity = 0.1
+			idea_cost = -0.1
+		}
+		province = {
+			local_religious_unity_contribution = 0.1
+		}
+		country_as_secondary = {
+			tolerance_own = 1
+			manpower_in_own_culture_provinces = 0.05
+			religious_unity = 0.05
+			idea_cost = -0.05
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Sanamahism }
+	}
+	sanamahism = {
+		icon = 232
+		color = { 87 0 70 }
+		country = {
+			tolerance_own = 1
+		}
+		province = {
+			local_manpower_modifier = 0.1
+			local_religious_unity_contribution = 0.1
+		}
+		country_as_secondary = {
+			tolerance_own = 1
+		}
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Reformed_Sanamahism }
+	}
+	reformed_wiwitan = {
+		icon = 234
+		color = { 100 255 100 }
+		country = {
+			tolerance_heathen = 1
+			development_cost_modifier = -0.05
+			global_autonomy = -0.05
+		}
+		country_as_secondary = {
+			tolerance_heathen = 1
+			development_cost_modifier = -0.025
+			global_autonomy = -0.025
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Wiwitan }
+	}
+	wiwitan = {
+		icon = 235
+		color = { 100 255 100 }
+		country = {
+			tolerance_heathen = 1
+			global_unrest = -1
+		}
+		province = {
+			local_autonomy = -0.05
+			local_unrest = 1
+			local_development_cost_modifier = -0.05
+		}
+		country_as_secondary = {
+			tolerance_heathen = 1
+			local_unrest = -1
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Reformed_Wiwitan }
+	}
+	satsana_phi = {
+		icon = 237
+		color = { 250 190 0 }
+		country = {
+			religious_unity = 0.1
+			global_prov_trade_power_modifier = 0.05
+			center_of_trade_upgrade_cost = -0.175
+			trade_efficiency = 0.05
+		}
+		province = {
+			trade_value_modifier = 0.1
+		}
+		country_as_secondary = {
+			religious_unity = 0.05
+			global_prov_trade_power_modifier = 0.025
+			center_of_trade_upgrade_cost = -0.175
+			trade_efficiency = 0.025
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Tai_Phi }
+	}
+	tai_phi = {
+		icon = 238
+		color = { 250 190 0 }
+		country = {
+			religious_unity = 0.1
+			global_autonomy = -0.2
+		}
+		province = {
+			province_trade_power_modifier = 0.1
+			local_center_of_trade_upgrade_cost = -0.25
+			trade_value_modifier = 0.1
+			local_autonomy = 0.2
+		}
+		country_as_secondary = {
+			religious_unity = 0.05
+			global_autonomy = -0.2
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		ancestors = yes
+		
+		heretic = { Satsana_Phi }
+	}
+	reformed_formosan = {
+		icon = 240
+		color = { 43 36 24 }
+		country = {
+			land_morale = 0.1
+			army_tradition = 0.33 # Probly too powerful
+			reduced_trade_penalty_on_non_main_tradenode = 0.1
+		}
+		province = {
+			province_trade_power_value = 0.1
+		}
+		country_as_secondary = {
+			land_morale = 0.05
+			army_tradition = 0.115 # Probly too powerful
+			reduced_trade_penalty_on_non_main_tradenode = 0.05
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Reformed_Formosan }
+	}
+	formosan = {
+		icon = 241
+		color = { 43 36 24 }
+		country = {
+			tolerance_heathen = 1
+			tolerance_heretic = 1
+			global_autonomy = -0.1
+		}
+		province = {
+			province_trade_power_value = 0.1
+			local_autonomy = 0.1
+		}
+		country_as_secondary = {
+			tolerance_heathen = 1
+			tolerance_heretic = 1
+			global_autonomy = -0.1
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		ancestors = yes
+		
+		heretic = { Formosan }
+	}
+	thanism = {
+		icon = 243
+		color = { 109 150 0 }
+		country = {
+			development_cost = -0.15
+			global_institution_spread = 0.15
+			trade_efficiency = 0.15
+		}
+		country_as_secondary = {
+			development_cost = -0.15
+			global_institution_spread = 0.15
+			trade_efficiency = 0.15
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Yangism }
+	}
+	yangism = {
+		icon = 244
+		color = { 109 150 0 }
+		country = {
+			global_autonomy = -0.5
+			global_unrest = -1
+		}
+		province = {
+			local_autonomy = 0.5
+			local_unrest = 1
+			local_development_cost = -0.1
+			local_institution_spread = 0.1
+			local_production_efficiency = 0.1
+		}
+		country_as_secondary = {
+			global_autonomy = -0.5
+			global_unrest = -1
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		ancestors = yes
+		
+		heretic = { Thanism }
+	}
+	reformed_bimoism = {
+		icon = 246
+		color = { 160 255 255 }
+		country = {
+			global_tax_modifier = 0.1
+			build_time = -0.15
+			global_monthly_devastation = -0.1
+		}
+		country_as_secondary = {
+			global_tax_modifier = 0.05
+			build_time = -0.075
+			global_monthly_devastation = -0.05
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Bimoism }
+	}
+	bimoism = {
+		icon = 247
+		color = { 160 255 255 }
+		country = {
+			global_monthly_devastation = -0.2
+		}
+		province = {
+			local_monthly_devastation = 0.2
+			local_tax_modifier = 0.1
+			local_build_time = -0.1
+		}
+		country_as_secondary = {
+			global_monthly_devastation = -0.2
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Reformed_Bimoism }
+	}
+	reformed_moist = {
+		icon = 249
+		color = { 151 162 219 }
+		country = {
+			global_regiment_cost = -0.1
+			build_cost = -0.1
+			centralize_state_cost = -0.1
+			administrative_efficiency = 0.1
+		}
+		country_as_secondary = {
+			global_regiment_cost = -0.05
+			build_cost = -0.05
+			centralize_state_cost = -0.05
+			administrative_efficiency = 0.05
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Moist }
+	}
+	moist = {
+		icon = 250
+		color = { 151 162 219 }
+		country = {
+			local_autonomy = -0.1
+		}
+		province = {
+			local_regiment_cost = -0.1
+			local_build_cost = -0.1
+			local_centralize_state_cost = -0.1
+			local_autonomy = 0.1
+		}
+		country_as_secondary = {
+			local_autonomy = -0.1
+		}
+		
+		harmonized_modifier = harmonized_pagan
+		
+		heretic = { Reformed_Moist }
+	}
+}

@@ -86,6 +86,19 @@ oghuz = {
 			Akhshunwar Ebodalo Haru Hwade-gang Javukha Khingila Kidara Kun-khi Mehama Meyam Mihirakula Napki Sartu Shengil Toramana
 		}
 	}
+	oghuz_japan_region = {
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+	}
+	oghuz_korea_region = {
+		province = { local_has_geobukseon = yes }
+	}
+	oghuz_manchuria_region = { }
+	oghuz_tibet_region = { }
+	oghuz_china_superregion = { }
+	oghuz_pacific_titularregion = { }
+	oghuz_indo_china_region = { }
+	oghuz_burma_region = { }
 }
 barbaro_germanic = {
 	graphical_culture = westerngfx
@@ -341,6 +354,23 @@ barbaro_germanic = {
 		#Hannoveran
 		"von Schack" "von Fabrice" "von Hardenberg" "von Welf" "von Schauenburg" "von Holstein-Gottorp" "Askanier" "von Oldenburg"
 	}
+	barogerman_japan_region = {
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+	}
+	barogerman_korea_region = {
+		province = { local_has_geobukseon = yes }
+	}
+	barogerman_manchuria_region = { }
+	barogerman_east_siberia_region = { }
+	barogerman_west_siberia_region = { }
+	barogerman_mongolia_region = { }
+	barogerman_tibet_region = { }
+	barogerman_central_asia_region = { }
+	barogerman_china_superregion = { }
+	barogerman_pacific_titularregion = { }
+	barogerman_indo_china_region = { }
+	barogerman_burma_region = { }
 }
 roman_group = {
 	graphical_culture = westerngfx
@@ -358,6 +388,26 @@ roman_group = {
 	wenedyk = { primary = ROM }
 	britannian = { primary = ROM }
 	hyperborean = { primary = ROM }
+	roman_japan_region = {
+		primary = ROM
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+	}
+	roman_korea_region = {
+		primary = ROM
+		province = { local_has_geobukseon = yes }
+	}
+	roman_manchuria_region = { primary = ROM }
+	roman_east_siberia_region = { primary = ROM }
+	roman_west_siberia_region = { primary = ROM }
+	roman_mongolia_region = { primary = ROM }
+	roman_tibet_region = { primary = ROM }
+	roman_central_asia_region = { primary = ROM }
+	roman_china_superregion = { primary = ROM }
+	roman_pacific_titularregion = { primary = ROM }
+	roman_indo_china_region = { primary = ROM }
+	roman_burma_region = { primary = ROM }
+	roman_india_superregion = { primary = ROM }
 	# IR-CK2 Old Italic cultures
 	sabellian = {
 		dynasty_names = {
@@ -396,7 +446,7 @@ roman_group = {
 		}
 	}
 
-		male_names = { Acilius Aebutius Aelius Aemilius Albius Amatius Annaeus Anneius Annius Antonius Arrius
+	male_names = { Acilius Aebutius Aelius Aemilius Albius Amatius Annaeus Anneius Annius Antonius Arrius
 		Artorius Asinius Atilius Atius Aurelius Autronius Caecilius Caedicius Caelius Calidius
 		Calpurnius Cassius Claudius Cloelius Cocceius Cominius Cornelius Coruncanius Curiatius
 		Curius Curtius Decius Didius Domitius Duilius Durmius Equitius Fabius Fabricius Fannius
@@ -678,7 +728,23 @@ gallic_group = {
 			Iccuius Iccuia Iccui Iccian
 			Galanus Galana Galanii Galanid
 		}
-
+	gall_japan_region = {
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+	}
+	gall_korea_region = {
+		province = { local_has_geobukseon = yes }
+	}
+	gall_manchuria_region = { }
+	gall_east_siberia_region = { }
+	gall_west_siberia_region = { }
+	gall_mongolia_region = { }
+	gall_tibet_region = { }
+	gall_central_asia_region = { }
+	gall_china_superregion = { }
+	gall_pacific_titularregion = { }
+	gall_indo_china_region = { }
+	gall_burma_region = { }
 }
 punic_group = {
 	graphical_culture = westerngfx
@@ -1211,8 +1277,23 @@ punic_group = {
 			Abdosir Arishat Astarte Batnoam Dido Shayna Sophonisba Tamar
 		}
 	}
-
-
+	punic_japan_region = {
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+	}
+	punic_korea_region = {
+		province = { local_has_geobukseon = yes }
+	}
+	punic_manchuria_region = { }
+	punic_east_siberia_region = { }
+	punic_west_siberia_region = { }
+	punic_mongolia_region = { }
+	punic_tibet_region = { }
+	punic_central_asia_region = { }
+	punic_china_superregion = { }
+	punic_pacific_titularregion = { }
+	punic_indo_china_region = { }
+	punic_burma_region = { }
 }
 dacian_group = {
 	graphical_culture = easterngfx
@@ -1264,7 +1345,23 @@ dacian_group = {
            	}
 
 	}
-
+	daci_japan_region = {
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+	}
+	daci_korea_region = {
+		province = { local_has_geobukseon = yes }
+	}
+	daci_manchuria_region = { }
+	daci_east_siberia_region = { }
+	daci_west_siberia_region = { }
+	daci_mongolia_region = { }
+	daci_tibet_region = { }
+	daci_central_asia_region = { }
+	daci_china_superregion = { }
+	daci_pacific_titularregion = { }
+	daci_indo_china_region = { }
+	daci_burma_region = { }
 }
 pre_indo_european_group = {
 	graphical_culture = westerngfx
@@ -1705,7 +1802,23 @@ pre_indo_european_group = {
 			"Apsimaros" "Artemios"
 		}
 	}
-	
+	preind_japan_region = {
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+	}
+	preind_korea_region = {
+		province = { local_has_geobukseon = yes }
+	}
+	preind_manchuria_region = { }
+	preind_east_siberia_region = { }
+	preind_west_siberia_region = { }
+	preind_mongolia_region = { }
+	preind_tibet_region = { }
+	preind_central_asia_region = { }
+	preind_china_superregion = { }
+	preind_pacific_titularregion = { }
+	preind_indo_china_region = { }
+	preind_burma_region = { }
 }
 equine_group = {
 	graphical_culture = westerngfx

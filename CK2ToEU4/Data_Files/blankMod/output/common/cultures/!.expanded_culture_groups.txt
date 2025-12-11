@@ -12,6 +12,24 @@ germanic = {
 	sudeten = {
 		primary = BOH
 	}
+	german_japan_region = { 
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+	}
+	german_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	german_manchuria_region = { }
+	german_east_siberia_region = { }
+	german_west_siberia_region = { }
+	german_mongolia_region = { }
+	german_tibet_region = { }
+	german_central_asia_region = { }
+	german_china_superregion = { }
+	german_pacific_titularregion = { }
+	german_indo_china_region = { }
+	german_burma_region = { }
 }
 scandinavian = {
 	norse = {
@@ -38,6 +56,25 @@ scandinavian = {
 	miklagardrian = { primary = BYZ }
 	serklandic = { } # No primary because it's truly a joke
 	romsborgian = { primary = ITA }
+	norse_japan_region = { 
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	norse_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	norse_manchuria_region = { }
+	norse_east_siberia_region = { }
+	norse_west_siberia_region = { }
+	norse_mongolia_region = { }
+	norse_tibet_region = { }
+	norse_central_asia_region = { }
+	norse_china_superregion = { }
+	norse_pacific_titularregion = { }
+	norse_indo_china_region = { }
+	norse_burma_region = { }
 }
 british = {
 	hibernic = {
@@ -343,18 +380,75 @@ british = {
 			Æthelburh Seaxburh Wihtburh
 		}
 	} # Fallback
+	british_japan_region = { 
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	british_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	british_manchuria_region = { }
+	british_east_siberia_region = { }
+	british_west_siberia_region = { }
+	british_mongolia_region = { }
+	british_tibet_region = { }
+	british_central_asia_region = { }
+	british_china_superregion = { }
+	british_pacific_titularregion = { }
+	british_indo_china_region = { }
+	british_burma_region = { }
 }
 gaelic = {
 	pictish = {
 		primary = HSC
 		dynasty_names = { "map Artcois" "map Bargoit" "map Buthud" "map Enfret" "map Eru" "map Gyrom" "map Lutrin" "map Mailcon" "map Munait" "map Taixali" "map Uleo" "map Wthoil" Circin Deoardivois Diuberr Erilich "Gaed Brechach" Gurthinmoch Ini Loc Morbet Necton Olgudach Smertae Tina Uecla Uip Vepogenus Wurgest }
 	}
+	gaelic_japan_region = { 
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	gaelic_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	gaelic_manchuria_region = { }
+	gaelic_east_siberia_region = { }
+	gaelic_west_siberia_region = { }
+	gaelic_mongolia_region = { }
+	gaelic_tibet_region = { }
+	gaelic_central_asia_region = { }
+	gaelic_china_superregion = { }
+	gaelic_pacific_titularregion = { }
+	gaelic_indo_china_region = { }
+	gaelic_burma_region = { }
 }
 latin = {
 	italian = {
 		primary = ITA
 		dynasty_names = { "de Liguori" "della Rovere" "di Borbone di Parma" "di Robilant" "di Savoia" "di Savoia-Aosta" "La Màrmora" "Pacoret de Saint Bon" "Thaon di Revel" Albricci Anfora Baratieri Bava-Beccaris Bonaccorsi Cadorna Cagni Canevaro Caraga Caviglia Ceccherini Clary Colonna d'Absburgo-Toscana Dezza Diaz Filomarino Giardino Gironda Govone Gravina Lanza Lombardo Lunardi Molinelli Orengo Orsini Pecori-Giraldi Perruchetti Pianelli Pironti Porro Ramorino Ricotti-Magnani Sanna Scammacca Solari Torlonia Turrisi Vaccari Zunica }
 	}
+	latin_japan_region = { 
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	latin_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	latin_manchuria_region = { }
+	latin_east_siberia_region = { }
+	latin_west_siberia_region = { }
+	latin_mongolia_region = { }
+	latin_tibet_region = { }
+	latin_central_asia_region = { }
+	latin_china_superregion = { }
+	latin_pacific_titularregion = { }
+	latin_indo_china_region = { }
+	latin_burma_region = { }
 }
 iberian	= {
 	province = { local_has_tercio = yes }
@@ -412,6 +506,55 @@ iberian	= {
 			Teresa Teresa Toda Toda Urraka Urraca Ximena Ximena Plaisance
 		}
 	}
+	iberian_japan_region = { 
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes local_has_caravel = yes local_has_galleon = yes }
+		
+	}
+	iberian_korea_region = {
+		province = { local_has_geobukseon = yes local_has_caravel = yes local_has_galleon = yes }
+		
+	}
+	iberian_manchuria_region = { 
+		province = { local_has_caravel = yes local_has_galleon = yes }
+		
+	}
+	iberian_east_siberia_region = {
+		province = { local_has_caravel = yes local_has_galleon = yes }
+		
+	}
+	iberian_west_siberia_region = {
+		province = { local_has_caravel = yes local_has_galleon = yes }
+		
+	}
+	iberian_mongolia_region = {
+		province = { local_has_caravel = yes local_has_galleon = yes }
+		
+	}
+	iberian_tibet_region = {
+		province = { local_has_caravel = yes local_has_galleon = yes }
+		
+	}
+	iberian_central_asia_region = {
+		province = { local_has_caravel = yes local_has_galleon = yes }
+		
+	}
+	iberian_china_superregion = {
+		province = { local_has_caravel = yes local_has_galleon = yes }
+		
+	}
+	iberian_pacific_titularregion = {
+		province = { local_has_caravel = yes local_has_galleon = yes }
+		
+	}
+	iberian_indo_china_region = {
+		province = { local_has_caravel = yes local_has_galleon = yes }
+		
+	}
+	iberian_burma_region = {
+		province = { local_has_caravel = yes local_has_galleon = yes }
+		
+	}
 }
 french = {
 	outremer = {
@@ -423,19 +566,38 @@ french = {
 		Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas }
 		dynasty_names = { "de Narbonne" "de Bourgogne-Comté" "de l'Aigle" "de Flotte" "de Vendome" "de Champagne" "de Namur" "de Bissy" "d'Eu" "von Margrave" "du Perche" "de Boulogne" "Puy du Fou" "de Preuilly" "de Salins" "d'Oisy" "de Barthe" "de Fezensac" "de Boisrobert" "de Bourbon" "d'Angoulême" "de Guyenne" "Le Tellier" "de Talleyrand" "de Batarnay" "de Beaumont-au-Maine" "de Hainaut" "de Crecy" "de Bellegarde" "de St. Hilary" "d'Aubigny" "de Albemarle" "de Verre" "d'Évreux" "de Blundeville" "de Mellent" "de Baalun" "de Vernon" Estouteville "de Vexin-Amiens" "de Tilly" }
 	}
+	french_japan_region = { 
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	french_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	french_manchuria_region = { }
+	french_east_siberia_region = { }
+	french_west_siberia_region = { }
+	french_mongolia_region = { }
+	french_tibet_region = { }
+	french_central_asia_region = { }
+	french_china_superregion = { }
+	french_pacific_titularregion = { }
+	french_indo_china_region = { }
+	french_burma_region = { }
 }
 finno_ugric = {
 	komi = {
 		primary = FIN
-		dynasty_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
+		dynasty_names = { Kokko Likhachev Mamin Minin Sibiriak Tikhanov Zubov }
 	}
 	mordvin = {
 		primary = MDV
-		dynasty_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
+		dynasty_names = { Kokko Likhachev Mamin Minin Sibiriak Tikhanov Zubov }
 	}
 	meshchera = {
 		primary = MSH
-		dynasty_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
+		dynasty_names = { Kokko Likhachev Mamin Minin Sibiriak Tikhanov Zubov }
 	}
 	samoyed = {
 		primary = NEN
@@ -452,6 +614,25 @@ finno_ugric = {
 	vepsian = {
 		primary = VPS
 	}
+	finougr_japan_region = { 
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	finougr_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	finougr_manchuria_region = { }
+	finougr_east_siberia_region = { }
+	finougr_west_siberia_region = { }
+	finougr_mongolia_region = { }
+	finougr_tibet_region = { }
+	finougr_central_asia_region = { }
+	finougr_china_superregion = { }
+	finougr_pacific_titularregion = { }
+	finougr_indo_china_region = { }
+	finougr_burma_region = { }
 }
 south_slavic = {
 	arbereshe = {
@@ -475,6 +656,25 @@ south_slavic = {
 			"Pashë Përmeti" "Pashë Tepelena" "Pashë Toptani" Poga "Qemal Bej" Shahini Skiroi Thaçi Troja Xoxe
 		}
 	}
+	southslav_japan_region = { 
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	southslav_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	southslav_manchuria_region = { }
+	southslav_east_siberia_region = { }
+	southslav_west_siberia_region = { }
+	southslav_mongolia_region = { }
+	southslav_tibet_region = { }
+	southslav_central_asia_region = { }
+	southslav_china_superregion = { }
+	southslav_pacific_titularregion = { }
+	southslav_indo_china_region = { }
+	southslav_burma_region = { }
 }
 west_slavic = {
 	strombian = {
@@ -494,6 +694,25 @@ west_slavic = {
 			Woski Wirt Zejler
 		}
 	}
+	westslav_japan_region = { 
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	westslav_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	westslav_manchuria_region = { }
+	westslav_east_siberia_region = { }
+	westslav_west_siberia_region = { }
+	westslav_mongolia_region = { }
+	westslav_tibet_region = { }
+	westslav_central_asia_region = { }
+	westslav_china_superregion = { }
+	westslav_pacific_titularregion = { }
+	westslav_indo_china_region = { }
+	westslav_burma_region = { }
 }
 carpathian = {
 	aromanian = {
@@ -566,6 +785,25 @@ carpathian = {
 			Tereza Teresa Vasilica Violeta Yolanda Voica Zina
 		}
 	}
+	carpat_japan_region = { 
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	carpat_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	carpat_manchuria_region = { }
+	carpat_east_siberia_region = { }
+	carpat_west_siberia_region = { }
+	carpat_mongolia_region = { }
+	carpat_tibet_region = { }
+	carpat_central_asia_region = { }
+	carpat_china_superregion = { }
+	carpat_pacific_titularregion = { }
+	carpat_indo_china_region = { }
+	carpat_burma_region = { }
 }
 east_slavic = {
 	ilmenian = {
@@ -642,6 +880,25 @@ east_slavic = {
 				Nikolayevich Ostrovskiy Pavlov Putyatin Romanov Rozhestvenskiy Skobelev
 				Shuvalov Surkov Tukhachevskiy Yegorov Yudenich Vorontsov Voroshilov Zavoyko }
 	}
+	eastslav_japan_region = { 
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	eastslav_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	eastslav_manchuria_region = { }
+	eastslav_east_siberia_region = { }
+	eastslav_west_siberia_region = { }
+	eastslav_mongolia_region = { }
+	eastslav_tibet_region = { }
+	eastslav_central_asia_region = { }
+	eastslav_china_superregion = { }
+	eastslav_pacific_titularregion = { }
+	eastslav_indo_china_region = { }
+	eastslav_burma_region = { }
 }
 baltic = {
 	old_prussian = {
@@ -693,6 +950,25 @@ baltic = {
 			"Skirwilteitis" "Skirwaldeitis" "Trijwaldeitis" "Waisbarteitis" "Waiswaldeitis" "Waiswilteitis"
 			 }
 	}
+	balt_japan_region = { 
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	balt_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	balt_manchuria_region = { }
+	balt_east_siberia_region = { }
+	balt_west_siberia_region = { }
+	balt_mongolia_region = { }
+	balt_tibet_region = { }
+	balt_central_asia_region = { }
+	balt_china_superregion = { }
+	balt_pacific_titularregion = { }
+	balt_indo_china_region = { }
+	balt_burma_region = { }
 }
 byzantine = {
 	bactrian = {
@@ -826,6 +1102,25 @@ byzantine = {
 		primary = EGY
 		dynasty_names = { Thinis Memphis Abydos Herakleopolis Thebes Itjtawy Avaris Bubastis Sais }
 	}
+	byzant_japan_region = { 
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	byzant_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	byzant_manchuria_region = { }
+	byzant_east_siberia_region = { }
+	byzant_west_siberia_region = { }
+	byzant_mongolia_region = { }
+	byzant_tibet_region = { }
+	byzant_central_asia_region = { }
+	byzant_china_superregion = { }
+	byzant_pacific_titularregion = { }
+	byzant_indo_china_region = { }
+	byzant_burma_region = { }
 }
 caucasian = {
 	caspian = {
@@ -841,12 +1136,30 @@ caucasian = {
 			Tigranuhi Vanuhi Mihrana Asatera Ariazate Aka Ghadana Erato Zarmandukht Pharantzem Mahbanu Zenobia Satenik
 		}
 	}
+	caucas_japan_region = { 
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	caucas_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	caucas_manchuria_region = { }
+	caucas_east_siberia_region = { }
+	caucas_west_siberia_region = { }
+	caucas_mongolia_region = { }
+	caucas_tibet_region = { }
+	caucas_china_superregion = { }
+	caucas_pacific_titularregion = { }
+	caucas_indo_china_region = { }
+	caucas_burma_region = { }
 }
 turko_semitic = {
 	frencharab = {
 		primary = FRA
 		dynasty_names = {
-			"Mirdasid" "Maanid" "al-Shihab"  Yakubid Hassanid
+			"Mirdasid" "Maanid" "al-Shihab" Yakubid Hassanid
 			Katkhuda Abaza Qasimiyya Qitas al-Qazdughli
 		}
 		male_names = {
@@ -865,7 +1178,7 @@ turko_semitic = {
 	nabatean = {
 		primary = ARA
 		dynasty_names = {
-			"Mirdasid" "Maanid" "al-Shihab"  Yakubid Hassanid
+			"Mirdasid" "Maanid" "al-Shihab" Yakubid Hassanid
 			Katkhuda Abaza Qasimiyya Qitas al-Qazdughli
 		}
 		male_names = {
@@ -881,8 +1194,45 @@ turko_semitic = {
 			Rajiya Sadiya Salma Sitara Thana Zahra Zahra Zuhayra
 		}
 	}
+	turkosemit_japan_region = { 
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	turkosemit_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	turkosemit_manchuria_region = { }
+	turkosemit_east_siberia_region = { }
+	turkosemit_west_siberia_region = { }
+	turkosemit_mongolia_region = { }
+	turkosemit_tibet_region = { }
+	turkosemit_china_superregion = { }
+	turkosemit_pacific_titularregion = { }
+	turkosemit_indo_china_region = { }
+	turkosemit_burma_region = { }
 }
 maghrebi = {
+	maghreb_japan_region = { 
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	maghreb_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	maghreb_manchuria_region = { }
+	maghreb_east_siberia_region = { }
+	maghreb_west_siberia_region = { }
+	maghreb_mongolia_region = { }
+	maghreb_tibet_region = { }
+	maghreb_central_asia_region = { }
+	maghreb_china_superregion = { }
+	maghreb_pacific_titularregion = { }
+	maghreb_indo_china_region = { }
+	maghreb_burma_region = { }
 }
 iranian = {
 	sogdian = {
@@ -931,12 +1281,44 @@ iranian = {
 	}
 	indo_scythian = {
 	}
+	iran_japan_region = { 
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	iran_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	iran_manchuria_region = { }
+	iran_east_siberia_region = { }
+	iran_west_siberia_region = { }
+	iran_mongolia_region = { }
+	iran_tibet_region = { }
+	iran_central_asia_region = { }
+	iran_china_superregion = { }
+	iran_pacific_titularregion = { }
+	iran_indo_china_region = { }
+	iran_burma_region = { }
 }
 altaic = {
 	khitan = {
 		primary = LIO
 		dynasty_names = { Genden Amar Tserendorj Tomorbaatar Damdinbazar Bodoo Sukhbaatar Jamyan Choibalsan Chagdarjav }
 	}
+	altaic_japan_region = { 
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	altaic_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	altaic_china_superregion = { }
+	altaic_pacific_titularregion = { }
+	altaic_indo_china_region = { }
+	altaic_burma_region = { }
 }
 central_american = {
 	pixantekatl = {
@@ -1285,12 +1667,115 @@ na_dene = {
 penutian = {
 }
 east_asian = {
+	tanka = { }
+	fusang = { 
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+	}
+	niwu = { 
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+	}
+	hwagyo = {
+		province = { local_has_geobukseon }
+	}
+	taiwanese = { }
+	sino_east_siberia_region = { }
+	sino_west_siberia_region = { }
+	sino_mongolia_region = { }
+	shway_yuhan = { }
+	sino_central_asia_region = { }
+	nanyang = { }
+	sangley = { }
+	hoa = { }
+	kat_chen = { }
+	kokang = { }
+	tayoke = { }
+	srirachan = { }
+	tianzhu = { }
+	xitianzhu = { }
+	dongtianzhu = { }
+	beitianzhu = { }
+	nantianzhu = { }
+	zhongtianzhu = { }
+	sino_persia_superregion = { }
+	sinyuhan = { }
+	sino_africa_superregion = { }
+	fulin = { }
+	deguoren = { }
+	neo_qin = { }
+	faguoren = { }
+	sino_iberia_region = {
+		province = { local_has_tercio = yes }
+		province = { local_has_caravel = yes local_has_galleon = yes }
+		
+	}
+	yingguoren = { }
+	weijinhan = { }
 }
 korean_g = {
+	jeju = { }
+	korean_japan_region = {
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	korean_manchuria_region = { } # (XestRed) Not sure about them
+	korean_east_siberia_region = { }
+	korean_west_siberia_region = { }
+	korean_mongolia_region = { }
+	korean_tibet_region = { }
+	korean_central_asia_region = { }
+	korean_china_superregion = { }
+	korean_pacific_titularregion = { }
+	korean_indo_china_region = { }
+	korean_burma_region = { }
+	korean_india_superregion = { }
+	korean_persia_superregion = { }
+	korean_near_east_superregion = { }
+	korean_africa_superregion = { }
+	korean_eastern_europe_superregion = { }
+	korean_italy_region = { }
+	korean_central_europe_titularregion = { }
+	korean_france_region = { }
+	korean_iberia_region = {
+		province = { local_has_tercio = yes }
+		province = { local_has_caravel = yes local_has_galleon = yes }
+	}
+	korean_british_isles_region = { }
+	korean_scandinavian_region = { }
 }
 japanese_g = {
 	country = { has_samurai = yes }
 	province = { local_has_samurai = yes }
+	japanese_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	japanese_manchuria_region = { }
+	japanese_east_siberia_region = { }
+	japanese_mongolia_region = { }
+	japanese_west_siberia_region = { }
+	japanese_tibet_region = { }
+	japanese_central_asia_region = { }
+	japanese_china_superregion = { }
+	japanese_pacific_titularregion = { }
+	japanese_indo_china_region = { }
+	japanese_burma_region = { }
+	japanese_india_superregion = { }
+	japanese_persia_superregion = { }
+	japanese_near_east_superregion = { }
+	japanese_africa_superregion = { }
+	japanese_eastern_europe_superregion = { }
+	japanese_central_europe_titularregion = { }
+	japanese_italy_region = { }
+	japanese_france_region = { }
+	japanese_iberia_region = {
+		province = { local_has_tercio = yes }
+		province = { local_has_caravel = yes local_has_galleon = yes }
+			}
+	japanese_british_isles_region = { }
+	japanese_scandinavian_region = { }
 }
 tibetan_group = {
 	tangut = {
@@ -1305,15 +1790,161 @@ tibetan_group = {
 		primary = TIB
 		dynasty_names = { Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi }
 	}
+	yao = { }
+	she = { }
+	tibet_japan_region = {
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	tibet_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	tibet_manchuria_region = { }
+	tibet_east_siberia_region = { }
+	tibet_west_siberia_region = { }
+	tibet_mongolia_region = { }
+	tibet_pacific_titularregion = { }
+	tibet_burma_region = { }
+	tibet_persia_superregion = { }
+	tibet_near_east_superregion = { }
+	tibet_africa_superregion = { }
+	tibet_eastern_europe_superregion = { }
+	tibet_central_europe_titularregion = { }
+	tibet_italy_region = { }
+	tibet_france_region = { }
+	tibet_iberia_region = {
+		province = { local_has_tercio = yes }
+		province = { local_has_caravel = yes local_has_galleon = yes }
+		
+	}
+	tibet_british_isles_region = { }
+	tibet_scandinavian_region = { }
 }
 malay = {
 	madagascan = {
 		primary = BUS #This culture is back when Madagascar was part of the Malay group
 	}
+	formosan = { }
+	andamanese = { }
+	banjar = { }
+	dusun = {
+		male_names = {
+			Ampingan Empurut Galumau Gantuong Gimbang Kerupang Kunul Sangan
+		}
+		female_names = {
+			Amin Ansayu Baimin Mainah Nani Rengkumas Salud Semitah
+		}
+	}
+	batak = { }
+	samudran = { }
+	cebuan = { }
+	minahasan = { }
+	malay_japan_region = {
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	malay_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	malay_manchuria_region = { }
+	malay_east_siberia_region = { }
+	malay_west_siberia_region = { }
+	malay_mongolia_region = { }
+	malay_tibet_region = { }
+	malay_central_asia_region = { }
+	malay_india_superregion = { }
+	malay_persia_superregion = { }
+	malay_near_east_superregion = { }
+	malay_africa_superregion = { }
+	malay_eastern_europe_superregion = { }
+	malay_central_europe_titularregion = { }
+	malay_italy_region = { }
+	malay_france_region = { }
+	malay_iberia_region = {
+		province = { local_has_tercio = yes }
+		province = { local_has_caravel = yes local_has_galleon = yes }
+		
+	}
+	malay_british_isles_region = { }
+	malay_scandinavian_region = { }
 }
 thai_group = {
+	dong = { }
+	hainanese = { }
+	dai = { }
+	dambro = { }
+	thai_japan_region = {
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	thai_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	thai_manchuria_region = { }
+	thai_east_siberia_region = { }
+	thai_west_siberia_region = { }
+	thai_mongolia_region = { }
+	thai_tibet_region = { }
+	thai_central_asia_region = { }
+	thai_pacific_titularregion = { }
+	thai_india_superregion = { }
+	thai_persia_superregion = { }
+	thai_near_east_superregion = { }
+	thai_africa_superregion = { }
+	thai_eastern_europe_superregion = { }
+	thai_central_europe_titularregion = { }
+	thai_italy_region = { }
+	thai_france_region = { }
+	thai_iberia_region = {
+		province = { local_has_tercio = yes }
+		province = { local_has_caravel = yes local_has_galleon = yes }
+		
+	}
+	thai_british_isles_region = { }
+	thai_scandinavian_region = { }
 }
 southeastasian_group = {
+	palaungic = { }
+	khmu = { }
+	katu = { }
+	bahnar = { }
+	indochina_japan_region = {
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	indochina_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	indochina_manchuria_region = { }
+	indochina_east_siberia_region = { }
+	indochina_west_siberia_region = { }
+	indochina_mongolia_region = { }
+	indochina_tibet_region = { }
+	indochina_central_asia_region = { }
+	indochina_pacific_titularregion = { }
+	indochina_india_superregion = { }
+	indochina_persia_superregion = { }
+	indochina_africa_superregion = { }
+	indochina_near_east_superregion = { }
+	indochina_eastern_europe_superregion = { }
+	indochina_central_europe_titularregion = { }
+	indochina_italy_region = { }
+	indochina_france_region = { }
+	indochina_iberia_region = {
+		province = { local_has_tercio = yes }
+		province = { local_has_caravel = yes local_has_galleon = yes }
+		
+	}
+	indochina_british_isles_region = { }
+	indochina_scandinavian_region = { }
 }
 burman = {
 	pyu = { }
@@ -1323,6 +1954,39 @@ burman = {
 	kachin = {
 		primary = WPG
 	}
+	qiang = { }
+	burman_japan_region = {
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	burman_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	burman_manchuria_region = { }
+	burman_east_siberia_region = { }
+	burman_mongolia_region = { }
+	burman_west_siberia_region = { }
+	burman_tibet_region = { }
+	burman_central_asia_region = { }
+	burman_pacific_titularregion = { }
+	burman_china_superregion = { }
+	burman_india_superregion = { }
+	burman_persia_superregion = { }
+	burman_near_east_superregion = { }
+	burman_africa_superregion = { }
+	burman_eastern_europe_superregion = { }
+	burman_central_europe_titularregion = { }
+	burman_italy_region = { }
+	burman_france_region = { }
+	burman_iberia_region = {
+		province = { local_has_tercio = yes }
+		province = { local_has_caravel = yes local_has_galleon = yes }
+		
+	}
+	burman_british_isles_region = { }
+	burman_scandinavian_region = { }
 }
 pacific = {
 	papuan = {
@@ -1341,8 +2005,42 @@ pacific = {
 aboriginal_australian = {
 }
 eastern_aryan = {
+	eastaryan_japan_region = {
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	eastaryan_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	eastaryan_manchuria_region = { }
+	eastaryan_east_siberia_region = { }
+	eastaryan_west_siberia_region = { }
+	eastaryan_mongolia_region = { }
+	eastaryan_tibet_region = { }
+	eastaryan_central_asia_region = { }
+	eastaryan_china_superregion = { }
+	eastaryan_pacific_titularregion = { }
 }
 hindusthani = {
+	hindus_japan_region = {
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	hindus_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	hindus_manchuria_region = { }
+	hindus_east_siberia_region = { }
+	hindus_west_siberia_region = { }
+	hindus_mongolia_region = { }
+	hindus_tibet_region = { }
+	hindus_central_asia_region = { }
+	hindus_china_superregion = { }
+	hindus_pacific_titularregion = { }
 }
 western_aryan = {
 	neo_mitanni = {
@@ -1363,20 +2061,109 @@ western_aryan = {
 	parsi = {
 		primary = BMY
 	}
+	westaryan_japan_region = {
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+	}
+	westaryan_korea_region = {
+		province = { local_has_geobukseon = yes }
+	}
+	westaryan_manchuria_region = { }
+	westaryan_east_siberia_region = { }
+	westaryan_west_siberia_region = { }
+	westaryan_mongolia_region = { }
+	westaryan_tibet_region = { }
+	westaryan_central_asia_region = { }
+	westaryan_china_superregion = { }
+	westaryan_pacific_titularregion = { }
 }
 dravidian = {
+	dravid_japan_region = {
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	dravid_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	dravid_manchuria_region = { }
+	dravid_east_siberia_region = { }
+	dravid_west_siberia_region = { }
+	dravid_mongolia_region = { }
+	dravid_tibet_region = { }
+	dravid_central_asia_region = { }
+	dravid_china_superregion = { }
+	dravid_pacific_titularregion = { }
 }
 central_indic = {
 }
 mande = {
+	mande_japan_region = {
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	mande_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	mande_manchuria_region = { }
+	mande_east_siberia_region = { }
+	mande_west_siberia_region = { }
+	mande_mongolia_region = { }
+	mande_tibet_region = { }
+	mande_central_asia_region = { }
+	mande_china_superregion = { }
+	mande_pacific_titularregion = { }
+	mande_indo_china_region = { }
+	mande_burma_region = { }
 }
 sahelian = {
 	zaghawa = {
 		primary = KAM
 		dynasty_names = { Wattara Toure Salim-Suwari Drame Saghanughu }
 	}
+	sahel_japan_region = {
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	sahel_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	sahel_manchuria_region = { }
+	sahel_east_siberia_region = { }
+	sahel_west_siberia_region = { }
+	sahel_mongolia_region = { }
+	sahel_tibet_region = { }
+	sahel_central_asia_region = { }
+	sahel_china_superregion = { }
+	sahel_pacific_titularregion = { }
+	sahel_indo_china_region = { }
+	sahel_burma_region = { }
 }
 west_african = {
+	westafrica_japan_region = {
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	westafrica_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	westafrica_manchuria_region = { }
+	westafrica_east_siberia_region = { }
+	westafrica_west_siberia_region = { }
+	westafrica_mongolia_region = { }
+	westafrica_tibet_region = { }
+	westafrica_central_asia_region = { }
+	westafrica_china_superregion = { }
+	westafrica_pacific_titularregion = { }
+	westafrica_indo_china_region = { }
+	westafrica_burma_region = { }
 }
 southern_african = {
 	nguni = {
@@ -1414,6 +2201,25 @@ african = {
 	}
 }
 cushitic = {
+	cushit_japan_region = {
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	cushit_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	cushit_manchuria_region = { }
+	cushit_east_siberia_region = { }
+	cushit_west_siberia_region = { }
+	cushit_mongolia_region = { }
+	cushit_tibet_region = { }
+	cushit_central_asia_region = { }
+	cushit_china_superregion = { }
+	cushit_pacific_titularregion = { }
+	cushit_indo_china_region = { }
+	cushit_burma_region = { }
 }
 sudanese = {
 	acholi = {
@@ -1567,6 +2373,25 @@ sudanese = {
 			Mago Mago Mago Magid
 		}
 	}
+	sudan_japan_region = {
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	sudan_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	sudan_manchuria_region = { }
+	sudan_east_siberia_region = { }
+	sudan_west_siberia_region = { }
+	sudan_mongolia_region = { }
+	sudan_tibet_region = { }
+	sudan_central_asia_region = { }
+	sudan_china_superregion = { }
+	sudan_pacific_titularregion = { }
+	sudan_indo_china_region = { }
+	sudan_burma_region = { }
 }
 evenks = {
 	yakut = {
@@ -1575,10 +2400,70 @@ evenks = {
 	tungus = {
 		primary = MKT
 	}
+	evenk_japan_region = {
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	evenk_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	evenk_tibet_region = { }
+	evenk_central_asia_region = { }
+	evenk_china_superregion = { }
+	evenk_pacific_titularregion = { }
+	evenk_indo_china_region = { }
+	evenk_burma_region = { }
 }
 kamchatkan_g = {
+	emishi = { }
+	kamchatkan_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	kamchatkan_west_siberia_region = { }
+	kamchatkan_mongolia_region = { }
+	kamchatkan_tibet_region = { }
+	kamchatkan_central_asia_region = { }
+	kamchatkan_china_superregion = { }
+	kamchatkan_pacific_titularregion = { }
+	kamchatkan_indo_china_region = { }
+	kamchatkan_burma_region = { }
+	kamchatkan_india_superregion = { }
+	kamchatkan_persia_superregion = { }
+	kamchatkan_near_east_superregion = { }
+	kamchatkan_africa_superregion = { }
+	kamchatkan_eastern_europe_superregion = { }
+	kamchatkan_central_europe_titularregion = { }
+	kamchatkan_italy_region = { }
+	kamchatkan_france_region = { }
+	kamchatkan_british_isles_region = { }
+	kamchatkan_iberia_region = {
+		province = { local_has_tercio = yes }
+		province = { local_has_caravel = yes local_has_galleon = yes }
+		
+	}
+	kamchatkan_scandinavian_region = { }
 }
 tartar = {
+	tartar_japan_region = {
+		country = { has_samurai = yes }
+		province = { local_has_samurai = yes }
+		
+	}
+	tartar_korea_region = {
+		province = { local_has_geobukseon = yes }
+		
+	}
+	tartar_manchuria_region = { }
+	tartar_east_siberia_region = { }
+	tartar_tibet_region = { }
+	tartar_central_asia_region = { }
+	tartar_china_superregion = { }
+	tartar_pacific_titularregion = { }
+	tartar_indo_china_region = { }
+	tartar_burma_region = { }
 }
 lost_cultures_group = { #cultures present elsewhere have been deleted.
 	atlantean = {

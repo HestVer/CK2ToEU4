@@ -57,6 +57,7 @@ class Character: commonItems::parser
 	[[nodiscard]] auto getPiety() const { return piety; }
 	[[nodiscard]] auto getWealth() const { return wealth; }
 	[[nodiscard]] auto hasLoan() const { return loan; }
+	[[nodiscard]] auto hasMohpretend() const { return mohpretend; } //
 	[[nodiscard]] auto getID() const { return charID; }
 	[[nodiscard]] auto getHost() const { return host; }
 	[[nodiscard]] auto isSpent() const { return spent; }
@@ -88,6 +89,7 @@ class Character: commonItems::parser
 	bool female = false;
 	bool spent = false; // if adviser, is already spent?
 	bool loan = false;  // borrowed_from_jews
+	bool mohpretend = false
 	double piety = 0;
 	double prestige = 0;
 	double wealth = 0;
